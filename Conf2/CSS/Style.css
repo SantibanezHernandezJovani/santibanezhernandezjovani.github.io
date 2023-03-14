@@ -1,0 +1,403 @@
+* {
+  font-family: verdana, Georgia, "Times New Roman", Times, serif, Tahoma,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+.CPrin {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-basis: 400px;
+  flex-wrap: nowrap;
+  height: 740px;
+  background-color: black;
+}
+
+
+.BHor{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 780px;
+    flex-grow: 1;
+    background-color: white;
+
+}
+.BHor .FArr{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 75px;
+    flex-grow: 1;
+    background-color: #51d1f6;
+
+}
+.BHor  .FArr img:hover {
+    background-color: white;
+    border-radius: 50%;
+    transform-origin: left;
+}
+
+
+.BHor .MoviP{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #51d1f6;
+
+}
+.BHor .MoviP img{
+    width: 15px;
+    height: 15px;
+    border-radius: 25px;
+    margin: 4px;
+
+}
+.BHor .MoviP img:hover {
+    background-color: darkblue;
+    border-radius: 50%;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+
+.BHor .FAbj{
+    padding-bottom: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    background-color: #51d1f6;
+
+}
+.BHor  .FAbj img:hover {
+    background-color: white;
+    border-radius: 50%;
+    transform-origin: left;
+}
+
+h1{
+    padding-left: 26px;
+    color: #3B9AB5;
+}
+
+
+
+
+
+.formsec{
+    display: flex;
+    flex-grow: 7;
+    height: 740px;
+    background-color: white;
+    flex-direction: column;
+
+}
+
+.formsec .HInte{
+    flex-grow: 1;
+    height: 200px;
+    background-color: white;
+
+}
+
+
+
+
+
+
+.formsec .MInte{
+    display: flex;
+    flex-grow: 10;
+    flex-direction: column;
+    background-color: white;
+    
+}
+
+.formsec .MInte .FS1{
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS1 .fs11{
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS1 .fs12{
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+
+
+
+.formsec .MInte .FS2{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS2 .fs21{
+    margin: 30px;
+    flex-grow: 1;
+    width: 330px;
+    background-color: white;
+    
+}
+.formsec .MInte .FS2 .fs22{
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+
+
+
+.formsec .MInte .FS3{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS3 .fs31{
+    margin: 30px;
+    flex-grow: 4;
+    width: 320px;
+    background-color: white;
+    
+}
+.formsec .MInte .FS3 .fs32{
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS3 .fs33{
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+
+
+.formsec .MInte .FS4{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS4 .fs41{
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+.formsec .MInte .FS4 .fs42{
+    width: 340px;
+    margin: 30px;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+.formsec .MInte .FS4 .fs42 input{
+    margin-top: 45px;
+    
+}
+
+
+
+
+
+.formsec .Finte{
+    height: 100px;
+    flex-direction: row;
+    display: flex;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+
+.formsec .Finte .continue{
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 25px;
+    padding-right: 45px;
+    align-items: flex-end;
+
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+
+.formsec .Finte .res{
+    padding-bottom: 25px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-grow: 1;
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+
+.BTC{
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: blue;
+    color: white;
+    
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  
+  }
+
+  .BTR{
+    border: none;
+    margin-top: 40px;
+    margin-left: 15px;
+    background-color: white;
+    color: black;
+    
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  
+  }
+
+
+
+
+
+
+
+
+
+  
+select{
+    margin-top: 20px;
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  
+  }
+
+
+
+  label {
+    width: 100%;
+    font-size: 18px;
+  }
+  
+ input {
+    margin-top: 25px;
+    width: 100%;
+    padding: 10px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  textarea:focus, input:focus, input[type]:focus {
+    border-bottom-color: rgb(3, 73, 128);
+    box-shadow: 0 1px 1px rgba(3, 73, 128, 0.075)inset, 0 0 8px rgba(3, 73, 128,0.6);
+    outline: 0 none;
+}
+
+select:focus, input:focus, input[type]:focus {
+    border-bottom-color: rgb(3, 73, 128);
+    box-shadow: 0 1px 1px rgba(3, 73, 128, 0.075)inset, 0 0 8px rgba(3, 73, 128,0.6);
+    outline: 0 none;
+}
+
+
+.circulo {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.circulo:hover {
+    background-color: darkblue;
+    border-radius: 0 50% 50% 50%;
+    transform: rotate(45deg);
+    transform-origin: left;
+}
+
+
+
+
+  img {
+    justify-content: center;
+      height: 40px;
+      margin-left: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+

@@ -1,0 +1,519 @@
+* {
+  font-family: verdana, Georgia, "Times New Roman", Times, serif, Tahoma,
+    sans-serif;
+  box-sizing: border-box;
+}
+
+.contenedor{
+    display: flex;
+    height: 80px;
+    justify-content:flex-start;
+    align-items: flex-start;   
+    flex-direction:row;
+    flex-basis: 400px;
+    flex-wrap: nowrap;
+    background-color: white;
+
+
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+}
+
+.box-1{
+    flex-shrink: 1;
+    flex-grow: 2;
+    flex-basis: 150px;
+
+}
+.box-2{
+    flex-shrink: 1;
+    flex-grow: 4;
+    flex-basis: 150px;
+    background-color: white;
+    border-right: #dcdcdc 2px solid;
+    border-left: #dcdcdc 2px solid;
+}
+
+.box-3{
+  display: flex;
+    flex-shrink: 1;
+    flex-grow: 1;
+    flex-basis: 150px;
+    background-color: white;
+}
+
+.box-1 img {
+  margin-top: 13px;
+  height: 50px;
+  margin-left: 50px;
+}
+.box.box-3 .u22 img {
+  justify-content: center;
+    height: 40px;
+    margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.box.box-3 .u22 select {
+  justify-content: center;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.FormP2 .pf select{
+  margin-top: 20px;
+  
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+.OpLa{
+    display: flex;
+    justify-content:flex-start;
+    height: 400px;
+    align-items: flex-start;   
+    flex-direction:row;
+    flex-basis: 400px;
+    flex-wrap: nowrap;
+
+
+}
+
+.botoncitos{
+    flex-grow: 1;
+    height: 795px;
+    width: 170px;
+    background-color: blue;
+}
+
+.botoncitos nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.botoncitos nav ul li {
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: blue;
+  border-bottom: solid #0000ff;
+  border-width: thin;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.botoncitos a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.botoncitos nav ul li:hover {
+  background-color: #3D3DFF;
+  color: white;
+}
+
+.botoncitos nav ul li p {
+  display: inline-block;
+}
+
+.botoncitos .need-help {
+  position: relative;
+  width: 100%;
+  height: 40%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  display: flex;
+  align-items: flex-end;
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+  background-color: #005faf;
+  margin: 0;
+  padding: 0;
+}
+
+.botoncitos .need-help div {
+  position: relative;
+  height: 15%;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  background-color: rgb(0, 44, 88);
+}
+
+.botoncitos .need-help div:hover {
+  background-color: rgb(0, 77, 155);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.tab{
+    flex-grow: 19;
+    height: 720px;
+    width: 150px;
+    background-color: white;
+}
+
+.tab .hedDen{
+  border-bottom: #c9c9c9 3px solid;
+  
+  border-top: #c9c9c9 3px solid;
+
+
+    display: flex;
+    flex-grow: 1;
+    height: 75px;
+    width: 100%;
+}
+
+.tab .c2{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    flex-direction:column; 
+    
+    height: 100%;
+    width: 100%;
+    background-color: #f3f3f3;
+}
+
+.c2 .Form{
+  border: #c9c9c9 3px solid;
+  display: flex;
+  flex-direction:column; 
+    height: 300px;
+    width: 1260px;
+}
+.c2 .tablillasDent{
+  display: flex;
+    height: 380px;
+    width: 1260px;
+}
+
+
+nav .u1 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav .u2 {
+    list-style: none;
+    margin-bottom: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+  }
+  nav .u2 a {
+    color: white;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px 10px 20px 30px;
+    background-color: blue;
+    opacity: 0.9;
+  }
+
+  nav .u2 li {
+    margin:  20px 20px 20px 0px;
+  }
+
+
+  .group-btn {
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    box-sizing: border-box;
+
+}
+
+.group-btn button {
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(63, 63, 63);
+    border: 2px solid white;
+    padding: 10px 12px;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+.group-btn button:hover {
+    background-color: white;
+    color: #005faf;
+    border: 2px solid #005faf;
+    margin: 5px 10px;
+    font-weight: bold;
+}
+
+
+nav .u1 li {
+  margin: 0 15px;
+  margin-top: 22px;
+}
+
+nav .u1 a {
+  font-weight: bold;
+  color: black;
+  display: inline-block;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 10px;
+}
+nav .u1 a:hover {
+  /* de seudoclase*/
+  opacity: 2;
+}
+nav .u2 a:hover {
+    /* de seudoclase*/
+    opacity: 2;
+  }
+
+
+
+
+.c2 .Form .FormP1{
+    display: flex;
+    flex-grow: 1;
+    height: 113px;
+    width: 100%;
+}
+.c2 .Form .FormP2{
+  display: flex;
+  flex-grow: 1;
+    height: 113px;
+    width: 100%;
+}
+
+
+
+.FormP1 .pf{
+  padding: 10px;
+  flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    border: white 5px solid;
+
+}
+
+
+.pfp1f{
+  display: flex;
+  padding: 10px;
+  flex-grow: 2;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    border: white 5px solid;
+
+}
+.pfp2f{
+  padding: 10px;
+  flex-grow: 1;
+    height: 100%;
+    width: 47%;
+    background-color:white;
+    border: white 5px solid;
+
+}
+
+.pfp3f{
+  padding: 10px;
+  flex-grow: 1;
+    height: 100%;
+    width: 50%;
+    background-color:white;
+    border: white 5px solid;
+
+}
+
+
+
+
+.hedDen .hd1{
+    flex-grow: 3.2;
+    height: 100%;
+    background-color:#f3f3f3;
+}
+.hedDen .hd2{
+    flex-grow: 1;
+    height: 100%;
+    background-color:#f3f3f3;
+}
+
+
+
+.c2 .tablillasDent .tab{
+  
+  flex-direction:column;
+  display: flex;
+  flex-grow: 1;
+    height: 100%;
+    width: 100%;
+    background-color:blue;
+    border: #c9c9c9 3px solid;
+
+}
+
+.celg{
+  color: black;
+  flex-grow: 4;
+  text-align: center;
+    height: 100%;
+    width: 100%;
+    background-color:white;
+    border: #dcdcdc 1px solid;
+
+}
+.cel{color: black;
+  text-align: center;
+  flex-grow: 1;
+  height: 70%;
+    width: 100%;
+    background-color:white;
+    border: #dcdcdc 1px solid;
+
+}
+
+
+.FormP1 .pf label {
+  width: 100%;
+  font-size: 18px;
+}
+
+.FormP1 .pf input {
+  margin-top: 25px;
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.FormP2 .pf label {
+  width: 10%;
+  font-size: 18px;
+}
+
+.FormP2 .pf input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.FormP2 .pf .cb {
+  padding-top: 47px;
+  top: 50px;
+  flex-grow: 1;
+  width: 10%;
+  font-size: 18px;
+}
+
+.FormP2 .pf .cheq {
+  margin-top: 40px;
+  flex-grow: 1;
+  width: 20%;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+.FormP2 .pf select{
+  margin-top: 20px;
+  
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+
+}
+
+.FormP2 .pf.pfp3f .bt1{
+  margin-top: 40px;
+  margin-left: 15px;
+  background-color: blue;
+  color: white;
+  
+  width: 120px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-bottom: 20px;
+
+}
+.FormP2 .pf.pfp3f .bt2{
+  margin-top: 40px;
+  margin-left: 15px;
+  
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 40px;
+  margin-bottom: 20px;
+
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/Style.css" />
+  </head>
+  <body>
+    <header></header>
+    <main>
+      <div class="CPrin">
+        <div class="BHor">
+          <div class="FArr">
+            <img src="./img/im2.png" alt="" />
+          </div>
+          <div class="MoviP">
+            <img src="./img/ImEnc.jpg" alt="" />
+            <img src="./img/ImEnc.jpg" alt="" />
+            <img src="./img/ImEnc.jpg" alt="" />
+          </div>
+          <div class="FAbj">
+            <img src="./img/im1.png" alt="" />
+          </div>
+        </div>
+        <div class="formsec">
+          <div class="HInte">
+            <h1>Basic Details</h1>
+          </div>
+          <form>
+            <div class="MInte">
+              <div class="FS1">
+                <div class="fs11">
+                  <label for="nombre">First name:</label>
+                  <input
+                    type="text"
+                    name="nombre"
+                    id="nombre"
+                    minlength="3"
+                    maxlength="20"
+                    required
+                  />
+                </div>
+                <div class="fs12">
+                  <label for="apellido">Last name:</label>
+                  <input
+                    type="text"
+                    name="apellido"
+                    id="apellido"
+                    minlength="2"
+                    maxlength="20"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="FS2">
+                <div class="fs21">
+                  <label for="correo">Email:</label>
+                  <input type="email" name="correo" id="correo" required />
+                </div>
+                <div class="fs22">
+                  <label for="idm">Your User ID:</label>
+                  <input
+                    type="text"
+                    name="idm"
+                    id="idm"
+                    minlength="10"
+                    maxlength="15"
+                    required
+                  />
+                </div>
+              </div>
+              <div class="FS3">
+                <div class="fs31">
+                  <label for="Country">Country:</label>
+                  <select class="xd">
+                    <option value="">Mexcio</option>
+                    <option value="">Estados unidos de america</option>
+                    <option value="">Venezuela</option>
+                    <option value="">Costa rica</option>
+                    <option value="">Chile</option>
+                    <option value="">Alemania</option>
+                    <option value="">Argentina</option>
+                    <option value="">Portugal</option>
+                    <option value="">Camerun</option>
+                    <option value="">India</option>
+                    <option value="">Rusia</option>
+                    <option value="">Paises bajos</option>
+                  </select>
+                </div>
+                <div class="fs32">
+                  <label for="Satde">Stade:</label>
+                  <select class="xd">
+                    <option value="">Oaxaca</option>
+                    <option value="">De la barrosa</option>
+                    <option value="">Aguascalientes</option>
+                    <option value="">Baja California</option>
+                    <option value="">Baja California Sur</option>
+                    <option value="">Campeche</option>
+                    <option value="">Chiapas</option>
+                    <option value="">Chihuahua</option>
+                    <option value="">Coahuila</option>
+                    <option value="">Colima</option>
+                  </select>
+                </div>
+                <div class="fs33">
+                  <label for="ciudad">City:</label>
+                  <select class="xd">
+                    <option value="">Oaxaca</option>
+                    <option value="">Juarez</option>
+                    <option value="">París</option>
+                    <option value="">Nueva Yor.</option>
+                    <option value="">Los Ángeles</option>
+                    <option value="">Seúl</option>
+                    <option value="">Londres</option>
+                    <option value="">Los Ángeles</option>
+                    <option value="">Shanghái</option>
+                    <option value="">Osaka</option>
+                  </select>
+                </div>
+              </div>
+              <div class="FS4">
+                <div class="fs41">
+                  <label for="numero">Phone number:</label>
+                  <input
+                    type="text"
+                    pattern="\(\d{3}\)\d{3}-\d{2}-\d{2}"
+                    required
+                  />
+                </div>
+                <div class="fs42">
+                  <input
+                    type="text"
+                    placeholder="Reference Code"
+                    pattern="\d{3}-\d{3}"
+                    required
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="Finte">
+              <div class="res">
+                <button class="BTR" type="reset">Reset All</button>
+              </div>
+              <div class="continue">
+                <button class="BTC" type="submit">Continue</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+      
+    </main>
+    <footer></footer>
+  </body>
+</html>
